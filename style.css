@@ -165,7 +165,6 @@ nav .mobile-nav {
   background-size: cover;
   height: 800px;
   width: 100%;
-  position: relative;
 }
 #banner .slider .container {
   height: 100%;
@@ -174,9 +173,27 @@ nav .mobile-nav {
   align-content: center;
   justify-content: center;
 }
-#banner .slider .test {
-  background-color: rebeccapurple;
+#banner .test {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-#banner .slider .test li {
+#banner .test .slick-active button {
+  background: #FF6F61 !important;
+  width: 30px;
+}
+#banner .test li {
   display: inline-block;
+  padding: 0 5px;
+}
+#banner .test li button {
+  background: #FFF;
+  color: transparent;
+  border: none;
+  width: 20px;
+  height: 8px;
+  border-radius: 15px;
 }/*# sourceMappingURL=style.css.map */

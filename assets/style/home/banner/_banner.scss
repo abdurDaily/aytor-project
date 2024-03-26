@@ -1,27 +1,51 @@
-#banner .slider{
-    background-image: url('./assets/images/banners/banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    width: 100%;
-    position: relative;
+#banner {
 
-    .container {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-content : center;
-        justify-content: center;
-        
-    }
-    .test{
-        background-color: rebeccapurple;
-        li{ 
-            display: inline-block;
+    .slider{
+        background-image: url('./assets/images/banners/banner.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+        width: 100%;
+       
+
+        .container {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content : center;
+            justify-content: center;
         }
     }
-    
-}
 
+    .test {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        bottom: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+
+
+        .slick-active button  {
+            background: #FF6F61 !important;
+            width: 30px;
+        }
+
+
+        li{
+            display: inline-block;
+            padding: 0 5px;
+
+            button{
+                background: #FFF;
+                color: transparent;
+                border: none;
+                width: 20px;
+                height: 8px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
 

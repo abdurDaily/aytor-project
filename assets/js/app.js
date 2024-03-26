@@ -1,7 +1,7 @@
 $(function(){
     $('#banner').slick({
         dots: true,
-        dotsClass: 'container test',
+        dotsClass: 'test container ',
         infinite: true,
         speed: 300,
         slidesToShow: 1,
