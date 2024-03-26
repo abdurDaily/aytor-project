@@ -18,16 +18,14 @@
     <!-- FONT-AWSOME -->
     <link rel="stylesheet" href="./assets/style/all.min.css"/>
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- RESPONSIVE CSS -->
     <link rel="stylesheet" href="./assets/style/responsive.css">
 </head>
 <body>
 
 
-    <!--*********************** NAVIGATION  ****************-->
-
-
+<!-- =============== NAVIGATION START ==================== -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
             <a class="navbar-brand" href="#">
@@ -120,15 +118,14 @@
             </div>
             </div>
         </nav>
-
-
         <!-- BOOTSTRAP OFFCANVAS -->
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
+            <div class="offcanvas-header d-flex justify-content-between">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">
                 <img src="./assets/images/logo.png" alt="">
             </h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+            <span class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-x"></i></span>
             </div>
             <div class="offcanvas-body">
                 
@@ -198,26 +195,47 @@
                                 
                             </ul>
                         </li>
-        
-                       
-        
-
-
-
                         <li class="nav-item">
-                        <a class="nav-link " aria-disabled="true">Contact</a>
+                             <a class="nav-link " aria-disabled="true">Contact</a>
                         </li>
-        
-                        
+    
                     </ul>
+
+
+                    
+                    <div class="mobile-sidebar-card mt-3 ">
+                        <ul class="p-0   ">
+                            <li class="d-flex justify-content-between "><a href="#"> <span><i class="fa-regular fa-user"></i></span> Login/Register</a> </li>
+                            <li class="d-flex justify-content-between "><a href="#"> <span><i class="fa-regular fa-heart"></i></span> Wishlist</a> <span class="mobile-sidebar-range">5</span> </li>
+                            <li class="d-flex justify-content-between"><a href="#"> <span><i class="fa-solid fa-basket-shopping"></i></span> Basket</a> <span class="mobile-sidebar-range">5</span> </li>
+                        </ul>
+                    </div>
                 </div>
                 
             </div>
         </div>
         <!-- BOOTSTRAP OFFCANVAS END -->
+<!-- =============== NAVIGATION END ======================== -->
 
 
-    <!--********************** NAVIGATION END ******************-->
+
+<!-- =============== BANNER START ==================== -->
+<section id="banner">
+  <div class="slider">
+       <div class="container">
+           <h4>Mega Sale</h4>
+           <h1>Up To 35% Off</h1>
+           <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+           <a href="#">Shop Now</a>
+       </div>
+  </div>
+  <div class="slider">
+       <div class="container">
+           <h1>hello..2</h1>
+       </div>
+  </div>
+</section>
+<!-- =============== BANNER END ======================== -->
     
     
 

@@ -1,9 +1,8 @@
-/* COMMOON CSS */
+//** ================  COMMON CSS START ===============*/ 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
 }
 a{
     text-decoration: none;
@@ -22,19 +21,16 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     flex-wrap: wrap;
 }
+//** ================  COMMON CSS END =================*/ 
 
-/* COMMOON CSS END */
-
-
-/* ROOT */
+//** ================  ROOT CSS START ===============*/ 
 :root{
     --black: #11161E;
     --common-color:#FF6F61;
     --primary-font: font-family: "Roboto", sans-serif;
     --seccondary-font:font-family: "Josefin Sans", sans-serif;
 }
-
-/* ROOT END */
+//** ================  ROOT CSS END =================*/ 
 
 /* NAV START */
 .navbar{
@@ -87,18 +83,55 @@ nav .mobile-nav{
     line-height: 40px;
     cursor: pointer;
     margin-right: 5%;
+    background-color: #FF6F61;
+    color: #fff;
+    font-size: 20px;
+}
+.offcanvas{
+    transition-duration: 1s ;
+    transition: 0.6s cubic-bezier(.17,.67,.83,.67);
+}
+.offcanvas .close-btn {
+    background-color: #FF6F61;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.mobile-sidebar-card li{
+    padding: 5px 0;
+    border-bottom: 1px solid #11161e2a;
+    padding: 15px 0;
+}
+.mobile-sidebar-card li a{
+   color: #11161E;
+}
+
+.mobile-sidebar-card li span{
+  color: #FF6F61;
+}
+.mobile-sidebar-card .mobile-sidebar-range {
+    background-color: #FF6F61;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 18px;
 }
 .dropdown-toggle::after {
     display: none;
 }
 .nav-mobile-icons ul{
-    /* background-color: red; */
     width: 100%;
     display: flex;
     justify-content: space-between;
 
 }
-
 .nav-mobile-icons li{
     display: inline-block;
     width: 40px;
